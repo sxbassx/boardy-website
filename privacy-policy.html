@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy - Boardy</title>
+  <style>
+    :root {
+      --bg: #0F0F19;
+      --card: #161620;
+      --text-primary: #F5F5FF;
+      --text-secondary: #C8C8E0;
+      --text-tertiary: #9898B0;
+      --accent: #D45847;
+      --border: rgba(255,255,255,0.06);
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+      background-color: var(--bg);
+      color: var(--text-secondary);
+      line-height: 1.7;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .container {
+      max-width: 680px;
+      margin: 0 auto;
+      padding: 48px 24px 80px;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 40px;
+    }
+
+    .logo-icon {
+      width: 36px;
+      height: 36px;
+      border-radius: 10px;
+      background: linear-gradient(135deg, var(--accent), #E8745A);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-weight: 700;
+      font-size: 18px;
+    }
+
+    .logo-text {
+      font-size: 20px;
+      font-weight: 700;
+      color: var(--text-primary);
+      letter-spacing: -0.3px;
+    }
+
+    h1 {
+      font-size: 32px;
+      font-weight: 700;
+      color: var(--text-primary);
+      margin-bottom: 8px;
+      letter-spacing: -0.5px;
+    }
+
+    .updated {
+      font-size: 14px;
+      color: var(--text-tertiary);
+      margin-bottom: 40px;
+    }
+
+    .intro {
+      font-size: 16px;
+      color: var(--text-secondary);
+      margin-bottom: 40px;
+      padding: 20px 24px;
+      background: var(--card);
+      border-radius: 16px;
+      border: 1px solid var(--border);
+    }
+
+    h2 {
+      font-size: 20px;
+      font-weight: 600;
+      color: var(--text-primary);
+      margin-top: 40px;
+      margin-bottom: 12px;
+      letter-spacing: -0.3px;
+    }
+
+    p {
+      margin-bottom: 16px;
+      font-size: 15px;
+    }
+
+    ul {
+      margin-bottom: 16px;
+      padding-left: 24px;
+    }
+
+    li {
+      margin-bottom: 8px;
+      font-size: 15px;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .divider {
+      height: 1px;
+      background: var(--border);
+      margin: 40px 0;
+    }
+
+    .footer {
+      margin-top: 60px;
+      padding-top: 24px;
+      border-top: 1px solid var(--border);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .footer-text {
+      font-size: 13px;
+      color: var(--text-tertiary);
+    }
+
+    .footer-links {
+      display: flex;
+      gap: 20px;
+    }
+
+    .footer-links a {
+      font-size: 13px;
+      color: var(--text-tertiary);
+    }
+
+    .footer-links a:hover {
+      color: var(--text-primary);
+    }
+
+    @media (max-width: 480px) {
+      .container {
+        padding: 32px 20px 60px;
+      }
+      h1 {
+        font-size: 26px;
+      }
+      h2 {
+        font-size: 18px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Logo -->
+    <div class="logo">
+      <div class="logo-icon">B</div>
+      <span class="logo-text">Boardy</span>
+    </div>
+
+    <h1>Privacy Policy</h1>
+    <p class="updated">Last updated: February 20, 2026</p>
+
+    <div class="intro">
+      Boardy ("we", "our", "us") is a social music tracking application that lets you rate, review, and share your music journey. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our mobile application.
+    </div>
+
+    <!-- 1 -->
+    <h2>1. Information We Collect</h2>
+
+    <p><strong>Account Information</strong></p>
+    <p>When you create an account, we collect:</p>
+    <ul>
+      <li>Email address</li>
+      <li>Username</li>
+      <li>Profile information you choose to provide (display name, bio, avatar image)</li>
+    </ul>
+
+    <p><strong>Music Activity Data</strong></p>
+    <p>When you use Boardy, we collect data about your interactions:</p>
+    <ul>
+      <li>Album ratings and reviews</li>
+      <li>Listening logs and journal entries</li>
+      <li>Lists you create</li>
+      <li>Comments and likes</li>
+      <li>Posts and media you share</li>
+    </ul>
+
+    <p><strong>Spotify Data</strong></p>
+    <p>If you choose to connect your Spotify account, we access the following data with your explicit permission:</p>
+    <ul>
+      <li>Your Spotify display name and profile image</li>
+      <li>Your top artists and top tracks</li>
+      <li>Your recently played tracks</li>
+      <li>Your playlists (for export features only)</li>
+    </ul>
+    <p>We store your Spotify OAuth tokens securely using encrypted device storage (Expo SecureStore). We never access or store your Spotify password. You can disconnect your Spotify account at any time from the app settings.</p>
+
+    <p><strong>Automatically Collected Information</strong></p>
+    <p>We may automatically collect certain information when you use the app, including device type, operating system version, and usage analytics to improve the app experience.</p>
+
+    <!-- 2 -->
+    <h2>2. How We Use Your Information</h2>
+    <p>We use the information we collect to:</p>
+    <ul>
+      <li>Provide, operate, and maintain the Boardy app</li>
+      <li>Create and manage your account</li>
+      <li>Display your profile and music activity to other users</li>
+      <li>Personalize your experience and generate music recommendations</li>
+      <li>Enable social features (following, liking, commenting)</li>
+      <li>Send important service-related notifications</li>
+      <li>Analyze usage patterns to improve the app</li>
+      <li>Enforce our Terms of Service and protect against misuse</li>
+    </ul>
+
+    <!-- 3 -->
+    <h2>3. Information Sharing and Disclosure</h2>
+
+    <p><strong>Public Information</strong></p>
+    <p>Your profile, reviews, ratings, lists, and posts are visible to other Boardy users by default. You can control your profile visibility in the app settings.</p>
+
+    <p><strong>We Do Not Sell Your Data</strong></p>
+    <p>We do not sell, rent, or trade your personal information to third parties for their marketing purposes.</p>
+
+    <p><strong>Service Providers</strong></p>
+    <p>We may share information with third-party service providers who help us operate the app:</p>
+    <ul>
+      <li><strong>Supabase</strong> - Authentication, database, and file storage (<a href="https://supabase.com/privacy" target="_blank" rel="noopener">Supabase Privacy Policy</a>)</li>
+      <li><strong>Spotify</strong> - Music data and listening history (<a href="https://www.spotify.com/legal/privacy-policy/" target="_blank" rel="noopener">Spotify Privacy Policy</a>)</li>
+      <li><strong>Last.fm</strong> - Genre browsing data (<a href="https://www.last.fm/legal/privacy" target="_blank" rel="noopener">Last.fm Privacy Policy</a>)</li>
+    </ul>
+
+    <p><strong>Legal Requirements</strong></p>
+    <p>We may disclose your information if required by law, subpoena, or other legal process, or if we believe disclosure is necessary to protect our rights, your safety, or the safety of others.</p>
+
+    <!-- 4 -->
+    <h2>4. Data Security</h2>
+    <p>We implement industry-standard security measures to protect your data:</p>
+    <ul>
+      <li>All data transmitted between the app and our servers is encrypted using HTTPS/TLS</li>
+      <li>Authentication tokens are stored securely on your device using encrypted storage</li>
+      <li>Our database uses Row-Level Security (RLS) to ensure users can only access their own data</li>
+      <li>Passwords are hashed and never stored in plain text</li>
+    </ul>
+    <p>While we strive to protect your information, no method of electronic transmission or storage is 100% secure. We cannot guarantee absolute security.</p>
+
+    <!-- 5 -->
+    <h2>5. Data Retention</h2>
+    <p>We retain your personal data for as long as your account is active or as needed to provide you with our services. When you delete your account:</p>
+    <ul>
+      <li>Your personal profile data is removed within 30 days</li>
+      <li>Your reviews, ratings, and comments may be anonymized and retained for the integrity of community data</li>
+      <li>Backup copies may persist for up to 90 days before being purged</li>
+    </ul>
+
+    <!-- 6 -->
+    <h2>6. Your Rights and Choices</h2>
+    <p>Depending on your location, you may have certain rights regarding your personal data:</p>
+    <ul>
+      <li><strong>Access</strong> - You can view and update your personal information at any time through the app</li>
+      <li><strong>Deletion</strong> - You can request deletion of your account and associated data</li>
+      <li><strong>Portability</strong> - You can request an export of your data</li>
+      <li><strong>Disconnect</strong> - You can disconnect third-party services (Spotify) at any time</li>
+      <li><strong>Correction</strong> - You can update inaccurate personal information</li>
+      <li><strong>Withdraw Consent</strong> - You can withdraw consent for optional data processing at any time</li>
+    </ul>
+    <p>To exercise any of these rights, contact us at <a href="mailto:privacy@boardy.app">privacy@boardy.app</a>.</p>
+
+    <!-- 7 -->
+    <h2>7. Children's Privacy</h2>
+    <p>Boardy is not intended for children under the age of 13. We do not knowingly collect personal information from children under 13. If we discover that a child under 13 has provided us with personal data, we will promptly delete it. If you are a parent or guardian and believe your child has provided us with personal information, please contact us at <a href="mailto:privacy@boardy.app">privacy@boardy.app</a>.</p>
+
+    <!-- 8 -->
+    <h2>8. International Data Transfers</h2>
+    <p>Your information may be transferred to and maintained on servers located outside your country of residence. By using Boardy, you consent to the transfer of your information to countries that may have different data protection laws than your country of residence.</p>
+
+    <!-- 9 -->
+    <h2>9. European Users (GDPR)</h2>
+    <p>If you are a resident of the European Economic Area (EEA), you have additional rights under the General Data Protection Regulation (GDPR):</p>
+    <ul>
+      <li>Right to access your personal data</li>
+      <li>Right to rectification of inaccurate data</li>
+      <li>Right to erasure ("right to be forgotten")</li>
+      <li>Right to restrict processing</li>
+      <li>Right to data portability</li>
+      <li>Right to object to processing</li>
+      <li>Right to lodge a complaint with a supervisory authority</li>
+    </ul>
+    <p>Our legal basis for processing your data includes: performance of a contract (providing the service), legitimate interests (improving the app), and consent (optional features like Spotify connection).</p>
+
+    <!-- 10 -->
+    <h2>10. California Users (CCPA)</h2>
+    <p>If you are a California resident, you have the right to:</p>
+    <ul>
+      <li>Know what personal information we collect about you</li>
+      <li>Request deletion of your personal information</li>
+      <li>Opt-out of the sale of your personal information (we do not sell your data)</li>
+      <li>Non-discrimination for exercising your privacy rights</li>
+    </ul>
+
+    <!-- 11 -->
+    <h2>11. Cookies and Tracking</h2>
+    <p>Boardy is a native mobile application and does not use browser cookies. We may use anonymous analytics tools to understand app usage patterns and improve the user experience. These tools do not collect personally identifiable information.</p>
+
+    <!-- 12 -->
+    <h2>12. Changes to This Privacy Policy</h2>
+    <p>We may update this Privacy Policy from time to time. We will notify you of any material changes by:</p>
+    <ul>
+      <li>Posting the new Privacy Policy in the app</li>
+      <li>Updating the "Last updated" date at the top of this page</li>
+      <li>Sending you a notification through the app for significant changes</li>
+    </ul>
+    <p>We encourage you to review this Privacy Policy periodically.</p>
+
+    <!-- 13 -->
+    <h2>13. Contact Us</h2>
+    <p>If you have any questions, concerns, or requests regarding this Privacy Policy or our data practices, please contact us:</p>
+    <ul>
+      <li>Email: <a href="mailto:privacy@boardy.app">privacy@boardy.app</a></li>
+    </ul>
+
+    <!-- Footer -->
+    <div class="footer">
+      <span class="footer-text">&copy; 2026 Boardy. All rights reserved.</span>
+      <div class="footer-links">
+        <a href="./terms.html">Terms of Service</a>
+        <a href="./privacy-policy.html">Privacy Policy</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
